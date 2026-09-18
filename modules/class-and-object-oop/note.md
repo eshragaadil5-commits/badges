@@ -1,3 +1,21 @@
-Kotlin OOP 
-Kotlin implements object-oriented programming through classes defined with the class keyword, supporting encapsulation via visibility modifiers (private, protected, internal, public), inheritance using the : syntax where parent classes and methods must be marked open to be extended, and composition (HAS-A relationships) by embedding objects as properties. Classes can have primary constructors (defined in the class header) or secondary constructors, with init blocks for additional setup, while property delegates like lazy and observable allow reusing getter/setter logic across multiple classes. The four OOP pillars—encapsulation (hiding internal state), abstraction (hiding implementation), inheritance (IS-A relationships for code reuse), and polymorphism (objects taking multiple forms through overriding)—work together with Kotlin's modern features like data classes and interfaces to create flexible, maintainable code that balances traditional OOP principles with concise, expressive syntax.
+## Project Summary
 
+class-and-object-oop covers core Object-Oriented Programming principles and Kotlin's modern class mechanics from Google's Android Developer Training.
+
+Functionality: Demonstrates how to model real-world concepts into code using Kotlin classes, constructors, properties, and inheritance structures.
+
+Key Concepts Learned:
+
+Class Architecture & Instantiation: Defining classes, using primary and secondary constructors, and initializing logic using init blocks.
+
+The Four OOP Pillars: Implementing encapsulation (visibility modifiers like private/public), abstraction, inheritance (open keyword and : syntax), and polymorphism (method overriding).
+
+Composition vs. Inheritance: Building flexible "HAS-A" relationships by embedding objects as properties alongside traditional "IS-A" class hierarchies.
+
+Property Delegation & Modifiers: Reusing getter/setter behavior with delegates like lazy and leveraging concise data constructs like data class and interface.
+
+## Personal Reflection
+
+This module was a great deep-dive into structuring scalable code with object-oriented principles.
+
+While OOP concepts can get abstract, practicing them in Kotlin made the syntax feel much cleaner compared to traditional languages—especially features like primary constructors and data classes. Understanding how open controls inheritance and how property delegation works gave me a solid mental model for how Android architecture and Jetpack Compose state components are structured behind the scenes.
