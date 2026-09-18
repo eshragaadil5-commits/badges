@@ -13,11 +13,11 @@ Welcome to my Android development learning portfolio! This repository serves as 
 * **Learning Path:** Google Developer Training
 
 ---
-
 ## 📂 Repository Structure
 
 All projects are organized under the `modules/` directory:
 
+```text
 mobile-app-learning-portfolio/
 └── modules/
     ├── DiceRoller/
@@ -28,6 +28,7 @@ mobile-app-learning-portfolio/
     ├── Use_nullability_in_Kotlin/
     └── basicOfKotlin/
 
+```
 
 
 ## Overall Learning Reflection
